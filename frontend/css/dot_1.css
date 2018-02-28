@@ -1,0 +1,63 @@
+.dot{
+  position: absolute;
+  animation: animationFrames linear 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: animationFrames linear 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: animationFrames linear 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: animationFrames linear 2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: animationFrames linear 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes animationFrames{
+  0% {
+    transform:  translate(-187px,-125px)  scaleX(1.00) ;
+  }
+  100% {
+    transform:  translate(155px,-136px)  scaleX(0.50) ;
+  }
+}
+
+@-moz-keyframes animationFrames{
+  0% {
+    -moz-transform:  translate(-187px,-125px)  scaleX(1.00) ;
+  }
+  100% {
+    -moz-transform:  translate(155px,-136px)  scaleX(0.50) ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    -webkit-transform:  translate(-187px,-125px)  scaleX(1.00) ;
+  }
+  100% {
+    -webkit-transform:  translate(155px,-136px)  scaleX(0.50) ;
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    -o-transform:  translate(-187px,-125px)  scaleX(1.00) ;
+  }
+  100% {
+    -o-transform:  translate(155px,-136px)  scaleX(0.50) ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    -ms-transform:  translate(-187px,-125px)  scaleX(1.00) ;
+  }
+  100% {
+    -ms-transform:  translate(155px,-136px)  scaleX(0.50) ;
+  }
+}

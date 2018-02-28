@@ -1,0 +1,35 @@
+#container {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  background-color: #fafafa;
+  width: 300px;
+  height: 200px;
+}
+
+#dummy-container-b-r {
+  position: absolute;
+  left: 0px;
+  top: 200px;
+  background-color: #fafafa;
+  width: 300px;
+  height: 200px;
+}
+
+#dummy-container-t-r {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #fafafa;
+  width: 300px;
+  height: 200px;
+}
+
+#dummy-container-t-l {
+  position: absolute;
+  left: 300px;
+  top: 0px;
+  background-color: #fafafa;
+  width: 300px;
+  height: 200px;
+}
